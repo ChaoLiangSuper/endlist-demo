@@ -1,0 +1,30 @@
+.observer {
+  height: 50vh;
+  position: absolute;
+  z-index: -100;
+  bottom: 0px;
+  width: 100%;
+  background-color: black;
+}
+
+.list-container-outer {
+  height: 100vh;
+  position: fixed;
+  overflow: scroll;
+}
+
+.list-container-inner {
+  width: 100%;
+  position: relative;
+}
+
+.loading {
+  background-color: white;
+}
+
+.list-group-item {
+  font-size: 15px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
